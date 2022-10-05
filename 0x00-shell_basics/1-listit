@@ -1,2 +1,2 @@
 #!/bin/bash
-ls 0x00-shell_basics
+echo "$(cd "$(dirname -- "$1")" >/dev/null; pwd -P)/$(basename -- "$1")"
